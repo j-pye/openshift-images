@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if [ `id -u` -ge `1000` ]; then
+if [ `id -u` -ge 1000 ]; then
 
   cat << EOF > /tmp/passwd
 root:x:0:0:root:/root:/bin/bash
